@@ -10,7 +10,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/labs/css/labs.css"
+app_include_css = "/assets/labs/css/background.css"
 # app_include_js = "/assets/labs/js/labs.js"
 
 # include js, css files in header of web template
@@ -36,7 +36,14 @@ app_license = "mit"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "labs/public/icons.svg"
+app_include_icons = "/assets/labs/img/logoblack.png"
+
+app_logo_url = "/assets/labs/img/logoblack.png"
+website_context = {
+    "favicon": "/assets/labs/img/url.png",
+    "splash_image":"/assets/labs/img/logoblack.png",
+    # 'app_logo_url' : "/assets/labs/img/logoblack.png"
+}
 
 # Home Pages
 # ----------
@@ -166,9 +173,9 @@ app_license = "mit"
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
-# override_doctype_dashboards = {
-# 	"Task": "labs.task.get_dashboard_data"
-# }
+override_doctype_dashboards = {
+	"Project": "labs.project_dashboard.get_data"
+}
 
 # exempt linked doctypes from being automatically cancelled
 #

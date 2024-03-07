@@ -1,0 +1,50 @@
+.navbar.navbar-expand.sticky-top {
+    background-color: lightblue;
+  }
+  .page-container {
+    background-color: lightblue;
+  }
+
+  .page-head.flex {
+    background-color: lightblue;
+  }
+
+  .layout-main-section {
+    background-color: lightblue !important;
+  }
+
+  .widget.onboarding-widget-box {
+    background-color: lightblue;
+  }
+
+  .onboarding-step.pending.active {
+    background-color: lightblue !important;
+  }
+
+  .widget.shortcut-widget-box {
+    background-color: lightblue;
+  }
+
+  .widget.spacer {
+    background-color: lightblue;
+  }
+
+  .row.form-dashboard-section.form-heatmap {
+    background-color: lightblue;
+  }
+
+  .row.form-dashboard-section.form-links {
+    background-color: lightblue;
+  }
+
+  .row.form-section.card-section.visible-section {
+    background-color: lightblue;
+  }
+
+  .timeline-item.activity-title {
+    background-color: lightblue;
+  }
+
+  .page-form.flex {
+    background-color: lightblue;
+  }
